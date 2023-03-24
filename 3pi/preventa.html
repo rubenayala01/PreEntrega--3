@@ -10,6 +10,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- fin de bootstrap -->
+
+     <!-- font awesome -->
+     <script src="https://kit.fontawesome.com/da63d5a3f8.js" crossorigin="anonymous"></script>
+     <!-- fin de font awesome -->
+
     <!-- mi css -->
     <link rel="stylesheet" href="../css/estilo.css">
     <!-- fin de mi css -->
@@ -62,7 +67,7 @@
                 </div>
             </div>
             <di class="row">
-                <div class="col-6 col-md-6 col-lg-6">
+                <div class="col-12 col-md-6 col-lg-6">
                     <div class="card text-white text-center bg-dark pb-2">
                         <div class="card-body">
                             <i class="bi bi-Version Manual"></i>
@@ -70,13 +75,13 @@
                             <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id ut eum
                                 repudiandae eaque, impedit dignissimos molestiae cum hic vitae <br> minus exercitationem
                                 quidem perspiciatis sapiente, saepe, adipisci autem velit quo tenetur.</p>
-                                <div class="img-area mb-4">
-                                    <img src="../img/electrica.jpg" class="img-fluid" alt="version manual en uso">
-                                </div>
+                            <div class="img-area mb-4">
+                                <img src="../img/electrica.jpg" class="img-fluid" alt="version manual en uso">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-6 col-lg-6">
+                <div class="col-12 col-md-6 col-lg-6">
                     <div class="card text-white text-center bg-dark pb-2">
                         <div class="card-body">
                             <i class="bi bi-Version Motorizada"></i>
@@ -84,9 +89,9 @@
                             <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id ut eum
                                 repudiandae eaque, impedit dignissimos molestiae cum hic vitae <br> minus exercitationem
                                 quidem perspiciatis sapiente, saepe, adipisci autem velit quo tenetur.</p>
-                             <div class="img-area mb-4">
-                                    <img src="../img/motorizada.jpg" class="img-fluid" alt="version motorizada en uso">
-                                </div>
+                            <div class="img-area mb-4">
+                                <img src="../img/motorizada.jpg" class="img-fluid" alt="version motorizada en uso">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -108,7 +113,7 @@
             </div>
             <div class="row">
                 <!-- TORUK E2 -->
-                <div class="col-6 col-md-6 col-lg-6">
+                <div class="col-12 col-md-6 col-lg-6">
                     <div class="card text-light text-center bg-dark pb-2">
                         <div class="card-body text-whithe">
                             <div class="img-area mb-4 ">
@@ -118,13 +123,13 @@
                             <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto officiis
                                 consequatur cum facilis ipsum, maxime nulla obcaecati numquam praesentium sequi iste
                                 expedita rem omnis cupiditate perspiciatis vero ullam ad eveniet.</p>
-                                <a href="contacto.html" class="btn btn-primary mt-3">¡TENELA AHORA!</a>
-                            
+                            <a href="contacto.html" class="btn btn-primary mt-3">¡TENELA AHORA!</a>
+
                         </div>
                     </div>
                 </div>
                 <!-- TORUK M2 -->
-                <div class="col-6 col-md-6 col-lg-6">
+                <div class="col-12 col-md-6 col-lg-6">
                     <div class="card text-light text-center bg-dark pb-2">
                         <div class="card-body text-whithe">
                             <div class="img-area mb-2 ">
@@ -135,7 +140,7 @@
                                 consequatur cum facilis ipsum, maxime nulla obcaecati numquam praesentium sequi iste
                                 expedita rem omnis cupiditate perspiciatis vero ullam ad eveniet.</p>
 
-                                <a href="contacto.html" class="btn btn-primary mt-3">¡RESERVALA AHORA!</a>
+                            <a href="contacto.html" class="btn btn-primary mt-3">¡RESERVALA AHORA!</a>
                         </div>
                     </div>
                 </div>
@@ -144,22 +149,33 @@
     </section>
 
 
+
     <!-- FOOTER -->
+
     <div class="container">
-        <footer class="py-3 my-4 text-white footercolor">
-          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Inicio</a></li>
-            <li class="nav-item"><a href="caracteristicas.html" class="nav-link px-2 text-muted">Caracteristicas</a></li>
-            <li class="nav-item"><a href="nosotros.html" class="nav-link px-2 text-muted">Nosotros</a></li>
-            <li class="nav-item"><a href="preventa.html" class="nav-link px-2 text-muted">Pre Venta</a></li>
-            <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
-          </ul>
-          <p class="text-center text-muted text-white">&copy; 2023 3pimobility Company, Inc</p>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-white">&copy; 2023 3pimobility Company, Inc</span>
+            </div>
+
+            <div class="redes-container">
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex text-white">
+                    <li><a href="https://www.facebook.com/3pimobility/" class="Facebook"><i
+                                class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="" class="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/3pimobility/?hl=es" class="Instagram"><i
+                                class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+
         </footer>
-      </div>
-
+    </div>
     <!-- FIN DE FOOTER -->
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"

@@ -13,12 +13,12 @@
     .carousel-caption {
         bottom: 125px;
 
-        h5 {
-            font-size: 17px;
+        h1,h2 {
+            font-size: 18px;
         }
 
         a {
-            padding: 10px 15px;
+            padding: 5px 10px;
             font-size: 15px;
         }
 
@@ -30,14 +30,17 @@
     }
 
     .about-text {
-        padding-top: 50px;
+        padding-top: 100px;
     }
 
     .card {
-        margin-top: 30px;
+        margin-top: 50px;
+
     }
 
     .section-padding {
         padding: 50px 0;
     }
+    
+
 }

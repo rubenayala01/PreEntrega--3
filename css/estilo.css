@@ -110,6 +110,43 @@ body {
   height: 100%;
 }
 
+/* FOOTER*/
+.redes-container ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 18px;
+  box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+}
+
+.redes-container ul:hover a {
+  filter: blur(2px);
+}
+
+.redes-container ul li a:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.2);
+  filter: none;
+}
+
+.redes-container ul li .Facebook:hover {
+  color: #005AA7;
+}
+
+.redes-container ul li .Whatsapp:hover {
+  color: #a8ff78;
+}
+
+.redes-container ul li .Instagram:hover {
+  color: #DA4453;
+}
+
 /* MEDIAQUERY */
 @media (max-width: 767px) {
   .navbar-nav {
@@ -121,11 +158,11 @@ body {
   .carousel-caption {
     bottom: 125px;
   }
-  .carousel-caption h5 {
-    font-size: 17px;
+  .carousel-caption h1, .carousel-caption h2 {
+    font-size: 18px;
   }
   .carousel-caption a {
-    padding: 10px 15px;
+    padding: 5px 10px;
     font-size: 15px;
   }
   .carousel-caption p {
@@ -134,10 +171,10 @@ body {
     font-size: 12px;
   }
   .about-text {
-    padding-top: 50px;
+    padding-top: 100px;
   }
   .card {
-    margin-top: 30px;
+    margin-top: 50px;
   }
   .section-padding {
     padding: 50px 0;
