@@ -15,6 +15,11 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <!-- fin de bootstrap -->
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- FIN DE AOS -->
+
   <!-- mi css -->
   <link rel="stylesheet" href="css/estilo.css">
   <script src="https://kit.fontawesome.com/da63d5a3f8.js" crossorigin="anonymous"></script>
@@ -110,7 +115,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-12 col-12">
-          <div class="about-img">
+          <div  data-aos="zoom-in-up" class="about-img">
             <img src="img/torukEcopia.jpeg" class="img-fluid" alt="">
           </div>
         </div>
@@ -141,7 +146,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-12 col-12">
-          <div class="about-img">
+          <div data-aos="zoom-in-down"  class="about-img">
             <img src="img/img2copia.jpg" class="img-fluid" alt="">
           </div>
         </div>
@@ -181,7 +186,7 @@
       <di class="row">
         <div class="col-12 col-md-6 col-lg-6">
           <div class="card text-white text-center bg-dark pb-2">
-            <div class="card-body">
+            <div data-aos="zoom-out-right" class="card-body">
               <i class="bi bi-Version Manual"></i>
               <h4 class="card-title"> Version Manual </h4>
               <p class="lead"> la versión manual tiene una capacidad de carga de hasta 120 kg y un radio de giro de 0.9
@@ -196,7 +201,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-6">
           <div class="card text-white text-center bg-dark pb-2">
-            <div class="card-body">
+            <div data-aos="zoom-out-left" class="card-body">
               <i class="bi bi-Version Motorizada"></i>
               <h4 class="card-title"> Version Motorizada </h4>
               <p class="lead">La versión motorizada de Toruk tiene una velocidad máxima de 10 km/h y una autonomía de
@@ -226,7 +231,7 @@
         <!-- TORUK E2 -->
         <div class="col-12 col-md-6 col-lg-6">
           <div class="card text-light text-center bg-dark pb-2">
-            <div class="card-body text-whithe">
+            <div data-aos="fade-up"  class="card-body text-whithe">
               <div class="img-area mb-4 ">
                 <img src="img/torukEcopia.jpeg" class="img-fluid " alt="torukE">
               </div>
@@ -242,7 +247,7 @@
         <!-- TORUK M2 -->
         <div class="col-12 col-md-6 col-lg-6">
           <div class="card text-light text-center bg-dark pb-2">
-            <div class="card-body text-whithe">
+            <div data-aos="fade-down"  class="card-body text-whithe">
               <div class="img-area mb-2 ">
                 <img src="img/torukMcopia.jpeg" class="img-fluid" alt="torukE">
               </div>
@@ -277,7 +282,7 @@
       <div class="row">
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card text-center bg-dark">
-            <div class="card-body text-white">
+            <div  data-aos="fade-up"  class="card-body text-white">
               <img src="img/team-1.jpg" class="img-fluid rounded-circle" alt="asesor1">
               <h4 class="card-title py-2">Claudia</h4>
               <p class="card-text">
@@ -300,7 +305,7 @@
 
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card text-center bg-dark">
-            <div class="card-body text-white">
+            <div  data-aos="fade-up" class="card-body text-white">
               <img src="img/team-2.jpg" class="img-fluid rounded-circle" alt="asesor2">
               <h4 class="card-title py-2">Sandra</h4>
               <p class="card-text">
@@ -322,7 +327,7 @@
 
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card text-center bg-dark">
-            <div class="card-body text-white">
+            <div  data-aos="fade-up" class="card-body text-white">
               <img src="img/team-3.jpg" class="img-fluid rounded-circle" alt="asesor3">
               <h4 class="card-title py-2">Sofia</h4>
               <p class="card-text">
@@ -344,7 +349,7 @@
 
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card text-center bg-dark">
-            <div class="card-body text-white">
+            <div  data-aos="fade-up" class="card-body text-white">
               <img src="img/team-4.jpg" class="img-fluid rounded-circle" alt="asesor4">
               <h4 class="card-title py-2">Lucas</h4>
               <p class="card-text">
@@ -449,6 +454,14 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+				easing: 'ease-out-back',
+				duration: 1000
+			});
+    </script>
 </body>
 
 </html>
